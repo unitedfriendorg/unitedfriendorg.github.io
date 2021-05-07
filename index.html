@@ -72,6 +72,23 @@
   color: purple;
   box-shadow: 7px 20px 20px purple;
 }
+
+.epic {
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate
+}
+
+@keyframes change {
+  0%   {color:red;}
+  25%  {color:orange}
+  38%  {color:yellow;}
+  48%  {color:lime;}
+  68% {color:blue;}
+  75% {color:indigo}
+  100% {color:violet}
+}
 	
 @media only screen and (min-width: 478px) {
 .centereded {font-size: 4vw;transform:translate(-30%,-50%)}
